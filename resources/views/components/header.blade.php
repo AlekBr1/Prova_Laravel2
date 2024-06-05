@@ -3,5 +3,6 @@
         <a href="{{ route('site.home')}}"><x-fas-home  class="flex w-16 h-16 text-[#FFECD6FF] hover:text-[#FFD4A3FF] cursor-pointer hover:scale-125"/></a>
         <a href="{{ route('site.shopping')}}"><x-fas-shop  class="flex w-16 h-16 text-[#FFECD6FF] hover:text-[#FFD4A3FF] cursor-pointer hover:scale-125"/></a>
         <a href="{{ route('site.addgame')}}"><x-fas-plus class="flex w-16 h-16 text-[#FFECD6FF] hover:text-[#FFD4A3FF] cursor-pointer hover:scale-125" /></a>
-        <x-fas-phone class="flex w-16 h-16 text-[#FFECD6FF] hover:text-[#FFD4A3FF] cursor-pointer hover:scale-125"/>
+        <a href="{{ route('site.contato')}}"><x-fas-phone class="flex w-16 h-16 text-[#FFECD6FF] hover:text-[#FFD4A3FF] cursor-pointer hover:scale-125"/></a>
+        
     </div>
